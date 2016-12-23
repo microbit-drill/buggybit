@@ -12,6 +12,7 @@ Some aspects
 
 ### Kitronic buggy with line follower for micro:bit
 - https://www.kitronik.co.uk/5604-line-following-buggy-for-the-bbc-microbit.html
+![img](media/5604_large_bbc_microbit_line_following_buggy.jpg)
 
 #### Motor driver board
 https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
