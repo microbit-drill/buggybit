@@ -15,7 +15,7 @@ Some aspects
 
 #### Motor driver board
 https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
-![img](blob/master/media/motordriver.PNG)
+![img](media/motordriver.PNG)
 - Button A/B avaiable (I/O ?)
 - P1/2 I/O available
 
