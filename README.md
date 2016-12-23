@@ -14,7 +14,8 @@ Some aspects
 - https://www.kitronik.co.uk/5604-line-following-buggy-for-the-bbc-microbit.html
 
 #### Motor driver board
-- https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
+https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
+![img](blob/master/media/motordriver.PNG)
 - Button A/B avaiable (I/O ?)
 - P1/2 I/O available
 
@@ -32,7 +33,6 @@ Some aspects
 
 ### Pins
 Which pins for pulse echo and interface resistors for the 3/5v interfacing micro:bit<->Ultransonic module
-- Possible candidates are P8/16 but there are conflicts in micro:bit documentation http://tech.microbit.org/hardware/edgeconnector/
 
 ### Bluetooth
 micro:bit to micro:bit comunication: pairing and all that jazz
@@ -41,3 +41,6 @@ micro:bit to micro:bit comunication: pairing and all that jazz
 Some form of closure to each part of the project
 - micro:bit controller GUI as a probable need first
 - ultrasonic hardware interfacing
+
+## GUI
+micro:bit as a GUI to control the buggy and the aspects of user interface
