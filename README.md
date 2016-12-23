@@ -21,9 +21,11 @@
 - To be deceided
 
 ## Problems to be solved
+
 ### Pins
 Which pins for pulse echo and interface resistors for the 3/5v interfacing micro:bit<->Ultransonic module
 - Possible candidates are P8/16 but there are conflicts in micro:bit documentation http://tech.microbit.org/hardware/edgeconnector/
+
 ### Bluetooth
 Ensure some form of bluetooth app or another micro:bit to control buggy
 
