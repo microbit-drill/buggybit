@@ -36,6 +36,8 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 ### Pins
 Which pins for pulse echo and interface resistors for the 3/5v interfacing micro:bit<->Ultransonic module
 ![img](media/edgeconnector.png)
+- P19/20 are the candidates, if they can be made to "normal" i/o.
+- it is also possible that further components could be connected with sufficient circuitary to interface i2c1 and from this, inteface to ultrasonic, contact feelers etc
 
 ### Bluetooth
 micro:bit to micro:bit comunication: pairing and all that jazz
