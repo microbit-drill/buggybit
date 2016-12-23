@@ -1,4 +1,12 @@
 # buggybit
+Xmas 2016 play and learn with the kids
+
+# Play and learn
+Some aspects
+- just play with the buggy
+- linefollowing: how to have fun with this (micro:bit sumai wrestling, push out of the circle)
+- ultrasonic addition: distance and time
+- fun with micro:bit controller: GUI with some leds and and 2 buttons
 
 ## Hardware
 
@@ -27,5 +35,9 @@ Which pins for pulse echo and interface resistors for the 3/5v interfacing micro
 - Possible candidates are P8/16 but there are conflicts in micro:bit documentation http://tech.microbit.org/hardware/edgeconnector/
 
 ### Bluetooth
-Ensure some form of bluetooth app or another micro:bit to control buggy
+micro:bit to micro:bit comunication: pairing and all that jazz
 
+### Finishing!
+Some form of closure to each part of the project
+- micro:bit controller GUI as a probable need first
+- ultrasonic hardware interfacing
