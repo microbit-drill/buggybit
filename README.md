@@ -18,6 +18,7 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 ![img](media/motordriver.PNG)
 - Button A/B avaiable (I/O ?)
 - P1/2 I/O available
+- P0/8/12/16 used for motor control
 
 #### Line following kit
 - https://www.kitronik.co.uk/2125-lf-line-following-add-on-board-for-laser-tank.html
