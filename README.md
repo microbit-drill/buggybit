@@ -7,6 +7,7 @@ Some aspects
 - linefollowing: how to have fun with this (micro:bit sumai wrestling, push out of the circle)
 - ultrasonic addition: distance and time
 - fun with micro:bit controller: GUI with some leds and and 2 buttons
+- and of course, Eddystone Beacon: for some fun additions
 
 ## Hardware
 
