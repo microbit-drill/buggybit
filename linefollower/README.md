@@ -1,82 +1,8 @@
-This is just the basic code from Kitronik as a quick snapshot before alterations.
+The original Kitronics line following code and some work in progress.
 
-```javascript
-basic.forever(() => {
-    while (pins.digitalReadPin(DigitalPin.P1) == 1 && pins.digitalReadPin(DigitalPin.P2) == 1) {
-        basic.showLeds(`
-            . . # . .
-            . # # # .
-            # . # . #
-            . . # . .
-            . . # . .
-            `)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 1)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 1)
-        basic.pause(30)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
-        basic.pause(30)
-    }
-    while (pins.digitalReadPin(DigitalPin.P2) == 1 && pins.digitalReadPin(DigitalPin.P1) == 0) {
-        basic.showLeds(`
-            # # # # .
-            # # . . .
-            # . # . .
-            # . . # .
-            . . . . #
-            `)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 1)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
-        basic.pause(30)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
-        basic.pause(30)
-    }
-    while (pins.digitalReadPin(DigitalPin.P1) == 1 && pins.digitalReadPin(DigitalPin.P2) == 0) {
-        basic.showLeds(`
-            . # # # #
-            . . . # #
-            . . # . #
-            . # . . #
-            # . . . .
-            `)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 1)
-        basic.pause(30)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
-        basic.pause(30)
-    }
-    while (pins.digitalReadPin(DigitalPin.P1) == 0 && pins.digitalReadPin(DigitalPin.P2) == 0) {
-        basic.showLeds(`
-            . . # . .
-            . # # # .
-            # . # . #
-            . . # . .
-            . . # . .
-            `)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 1)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 1)
-        basic.pause(30)
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
-        basic.pause(30)
-    }
-})
-```
+There are some things one should think about
+- switch on power: no motors should be active
+- how to switch on the motors: use A or B or either to start
+- how to use the inputs from the light sensors and any adjustments needed
+- how to ensure that the buggy goes straight: the two motors may have some differences resulting in drift
+- how to control the speed of the buggy: fast slow medium
