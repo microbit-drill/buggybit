@@ -29,7 +29,8 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 - pulse echo and +5v
 
 ## Software
-- To be deceided
+- https://pxt.microbit.org/ as there is a block/package for the ping trig(pulse) and echo
+- https://github.com/Microsoft/pxt-sonar 
 
 ## Problems to be solved
 
