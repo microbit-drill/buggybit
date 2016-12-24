@@ -27,7 +27,7 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 #### Line following kit
 - https://www.kitronik.co.uk/2125-lf-line-following-add-on-board-for-laser-tank.html
 - Uses P1/2 
-- [linefollowing](https:linefollowing/README.md)
+- [linefollowing](https:tree/master/linefollowing/README.md)
 
 ### Ultrasonic module
 ![img](media/hr-sro4.jpg)
