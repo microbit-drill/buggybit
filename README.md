@@ -27,6 +27,7 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 - Uses P1/2 
 
 ### Ultrasonic module
+![img](media/hr-sro4.jpg)
 - HR-SRO4
 - Sonar: As seen from front, Left: T(ransmitter) Right: R(eciever)
 - Pins: In order as can be read, top to bottom, Vcc, trig, echo, Gnd
