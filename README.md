@@ -31,6 +31,8 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 - HR-SRO4
 - Sonar: As seen from front, Left: T(ransmitter) Right: R(eciever)
 - Pins: In order as can be read, top to bottom, Vcc, trig, echo, Gnd
+- Vcc: TODO: find operating voltage range
+- trig/echo: TODO: ensure problem free trig/echo voltage levels
 
 ## Software
 - https://pxt.microbit.org/ as there is a block/package for the ping trig(pulse) and echo
