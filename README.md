@@ -30,7 +30,17 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 - Button A/B avaiable (I/O ?)
 - P1/2 I/O available
 - P0/8/12/16 used for motor control
-
+- With the further use of pins in connection with buttons, leds etc, add the least nr of pins at the edgeconnector
+ - From Top as readable
+  - gnd:
+  - p20: i2c1-sda (can hopefully be used as standard i/o for ultrasonic)
+  - p19: i2c1-scl (can hopefully be used as standard i/o for ultrasonic)
+  - 3v: 3.3v out
+  - p16: motor control so no need to solder
+  - p15: spi1-mos1 (alternative for ultrasonic)
+  - p14: spi1-mis1 (alternative for ultrasonic)
+  - p15: spi1-sck (alternative for ultrasonic) 
+  
 #### Line following kit
 - https://www.kitronik.co.uk/2125-lf-line-following-add-on-board-for-laser-tank.html
 - Uses P1/2 
