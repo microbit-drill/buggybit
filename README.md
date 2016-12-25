@@ -48,10 +48,11 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 
 ### Ultrasonic module
 ![img](media/hr-sro4.jpg)
+![img](media/trigecho.jpg)
 - HR-SRO4
 - Sonar: As seen from front, Left: T(ransmitter) Right: R(eciever)
 - Pins: In order as can be read, top to bottom, Vcc, trig, echo, Gnd
-- Vcc: TODO: find operating voltage range
+- Vcc: TODO: find operating voltage range: looks like +5v with TTL i/o 0-5v
 - trig/echo: TODO: ensure problem free trig/echo voltage levels
 
 ## Software
