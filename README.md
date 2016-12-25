@@ -1,7 +1,14 @@
 # buggybit
 Xmas 2016 play and learn with the kids
 
+## Bits and pieces
 ![img](media/buggybit.jpg)
+
+## Buggy bat
+![img](media/buggybat.jpg)
+- Owen (54): What does a bat do to not hit a wall?
+ - Lara (8): Eewww
+- Joshua (10): Has it personality now?
 
 # Play and learn
 Some aspects
