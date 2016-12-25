@@ -1,9 +1,11 @@
+let right = 0
+let left = 0
 let start = false
-pins.digitalWritePin(DigitalPin.P8, 0)
-pins.digitalWritePin(DigitalPin.P12, 0)
-pins.digitalWritePin(DigitalPin.P0, 0)
-pins.digitalWritePin(DigitalPin.P16, 0)
 basic.forever(() => {
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, left)
+    pins.digitalWritePin(DigitalPin.P0, 0)
+    pins.digitalWritePin(DigitalPin.P16, right)
     basic.showLeds(`
         . . . . .
         . # . # .
@@ -13,58 +15,26 @@ basic.forever(() => {
         `)
     if (start) {
         if (pins.digitalReadPin(DigitalPin.P1) == pins.digitalReadPin(DigitalPin.P2)) {
-            basic.showLeds(`
-                . . . . .
-                . # . # .
-                . . # . .
-                # . . . #
-                . # # # .
-                `)
-            pins.digitalWritePin(DigitalPin.P12, 1)
-            pins.digitalWritePin(DigitalPin.P16, 1)
+            left = 1
+            right = 1
+            led.plot(2, 2)
         } else if (pins.digitalReadPin(DigitalPin.P2) == 1) {
-            basic.showLeds(`
-                # . . . .
-                . # . # .
-                . . # . .
-                # . . . #
-                . # # # .
-                `)
-            pins.digitalWritePin(DigitalPin.P12, 1)
-            pins.digitalWritePin(DigitalPin.P16, 0)
+            left = 1
+            right = 0
+            led.plot(0,0)
         } else {
-            basic.showLeds(`
-                . . . . #
-                . # . # .
-                . . # . .
-                # . . . #
-                . # # # .
-                `)
-            pins.digitalWritePin(DigitalPin.P12, 0)
-            pins.digitalWritePin(DigitalPin.P16, 1)
+            left = 1
+            right = 0
+            led.plot(4,0)
         }
     } else {
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
+        left = 0
+        right = 0
     }
 })
 input.onButtonPressed(Button.A, () => {
     start = !(start)
-    if (!(start)) {
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
-    }
 })
 input.onButtonPressed(Button.B, () => {
     start = !(start)
-    if (!(start)) {
-        pins.digitalWritePin(DigitalPin.P8, 0)
-        pins.digitalWritePin(DigitalPin.P12, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P16, 0)
-    }
 })
