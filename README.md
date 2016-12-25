@@ -1,7 +1,7 @@
 # buggybit
 Xmas 2016 play and learn with the kids
 
-## Bits and pieces
+## Buggy bits
 ![img](media/buggybit.jpg)
 
 ## Buggy bat
@@ -40,7 +40,7 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
   - p15: spi1-mos1 (alternative for ultrasonic)
   - p14: spi1-mis1 (alternative for ultrasonic)
   - p15: spi1-sck (alternative for ultrasonic) 
-  
+
 #### Line following kit
 - https://www.kitronik.co.uk/2125-lf-line-following-add-on-board-for-laser-tank.html
 - Uses P1/2 
