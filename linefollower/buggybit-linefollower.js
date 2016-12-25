@@ -23,8 +23,8 @@ basic.forever(() => {
             right = 0
             led.plot(0,0)
         } else {
-            left = 1
-            right = 0
+            left = 0
+            right = 1
             led.plot(4,0)
         }
     } else {
