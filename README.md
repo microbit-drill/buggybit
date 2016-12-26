@@ -33,8 +33,8 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 - With the further use of pins in connection with buttons, leds etc, add the least nr of pins at the edgeconnector
  - From Top as readable
   - gnd:
-  - p20: i2c1-sda (can hopefully be used as standard i/o for ultrasonic)
-  - p19: i2c1-scl (can hopefully be used as standard i/o for ultrasonic)
+  - p20: i2c1-sda 
+  - p19: i2c1-scl
   - 3v: 3.3v out
   - p16: motor control so no need to solder
   - p15: spi1-mos1 (alternative for ultrasonic)
@@ -66,8 +66,7 @@ https://www.kitronik.co.uk/5620-motor-driver-board-for-the-bbc-microbit-v2.html
 ### Pins
 Which pins for trigger echo and interface resistors for possible 3/5v interfacing micro:bit<->Ultransonic module
 ![img](media/edgeconnector.png)
-- P19/20 are the candidates, if they can be made to "normal" i/o.
-- it is also possible that further components could be connected with sufficient circuitary to interface i2c1 and from this, inteface to ultrasonic, contact feelers etc
+- may need to use button pins
 
 ### Bluetooth
 micro:bit to micro:bit comunication: pairing and all that jazz
